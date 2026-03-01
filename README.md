@@ -254,6 +254,23 @@ grep -rn "Video Dashboard\|Placeholder\|lorem ipsum" src/ components/ app/
 
 ---
 
+## Troubleshooting
+
+### `npm run validate` fails with "Cannot connect to server"
+Start the Next.js dev server first: `npm run dev`. The validation suite needs a running server at `http://localhost:3000`.
+
+### Puppeteer browser launch fails
+Run `npx puppeteer browsers install chrome` to install the required browser. In CI, use `--ci` mode: `npm run validate:ci`.
+
+### Screenshots not matching expected layout
+Ensure your viewport is set correctly. The validation suite uses a default viewport of 1280x720. Custom viewports can be set per-check in `puppeteer-checks.js`.
+
+### Missing `@/lib/utils` import error
+This is expected for the template repo. The `@/` path alias resolves via `tsconfig.json` paths when the full Next.js project is built.
+
+### Design tokens not applying
+Verify `design-system/tokens.json` is imported correctly. All 47 tokens use the brutalist palette (borderRadius: 0px is intentional).
+
 ## License
 
 MIT © Nick Krzemienski
