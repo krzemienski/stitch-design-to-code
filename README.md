@@ -1,5 +1,19 @@
 # stitch-design-to-code
 
+[![Featured in Agentic Development Blog — Post #10](https://img.shields.io/badge/Agentic%20Development%20Blog-Post%20%2310-blue)](https://github.com/krzemienski/agentic-development-guide)
+
+## Related Post
+
+**Featured in the Agentic Development Blog series — Post #10: 21 AI-Generated Screens, Zero Figma Files**
+
+- Send date: Mon Jun 15, 2026
+- LinkedIn: _link added on send day_
+- Canonical blog post: https://ai.hack.ski/blog/<slug-set-on-send-day>
+- Series hub: [agentic-development-guide](https://github.com/krzemienski/agentic-development-guide)
+
+---
+
+
 [![Agentic Development Series](https://img.shields.io/badge/Agentic_Development-Part_9-e050b0?style=for-the-badge)](https://github.com/krzemienski)
 [![License: MIT](https://img.shields.io/badge/License-MIT-4dacde?style=flat-square)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-000000?style=flat-square&logo=node.js)](https://nodejs.org)
