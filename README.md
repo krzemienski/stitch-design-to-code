@@ -1,4 +1,12 @@
-# stitch-design-to-code
+# Stitch Design to Code
+
+> Node.js — design tokens + Stitch MCP integration for design-to-code generation.
+
+Live site: [withagents.dev/posts/post-10-stitch-design](https://withagents.dev/posts/post-10-stitch-design)
+Field journal entry: [withagents.dev/posts/post-10-stitch-design](https://withagents.dev/posts/post-10-stitch-design)
+
+---
+
 
 [![Featured in Agentic Development Blog — Post #10](https://img.shields.io/badge/Agentic%20Development%20Blog-Post%20%2310-blue)](https://github.com/krzemienski/agentic-development-guide)
 
